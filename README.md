@@ -25,8 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
+![desktop-design](https://user-images.githubusercontent.com/84927682/121898787-f619e480-cd4d-11eb-94bc-1e320ae1cbc0.jpg)
 
 ### Links
 
@@ -47,6 +46,6 @@ So, this is the second time I'm doing a challenge to build a website. I built th
 
 ## Author
 
-- Website - Saddam Husain
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Instagram - [@sadaaam_23](https://www.twitter.com/yourusername)
+- Name - Saddam Husain
+- Frontend Mentor - [@mavolty](https://www.frontendmentor.io/profile/mavolty)
+- Instagram - [@sadaaam_23](https://www.instagram.com/sadaaam23/)
