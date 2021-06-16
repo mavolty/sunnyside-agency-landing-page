@@ -183,15 +183,16 @@ a:link {
     background-color: var(--yellow);
 }
 
-.arrow-down:visited,
-.arrow-down:link {
-    padding-top: 4.5rem;
-    cursor: pointer;
-
-    animation: scale 1s ease-in-out infinite
+.arrow-down {
+    margin-top: 3.5rem;
 }
 
-@keyframes scale {
+.arrow-down__link:visited,
+.arrow-down__link:link {
+    animation: moveUpDown 1s ease-in-out infinite
+}
+
+@keyframes moveUpDown {
     0% {
         transform: translateY(0);
     }
@@ -479,7 +480,7 @@ a:link {
     }
 
     .arrow-down {
-        padding-top: 9.5rem;
+        padding-top: 3rem;
     }
 
     /* CONTENT SECTION */
