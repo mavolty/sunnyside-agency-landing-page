@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/mavolty/sunnyside-agency-landing-page-main](https://github.com/mavolty/sunnyside-agency-landing-page-main)
-- Live Site URL: [https://mavolty.github.io/mavolty/sunnyside-agency-landing-page-main](https://mavolty.github.io/mavolty/sunnyside-agency-landing-page-main)
+- Live Site URL: [https://mavolty.github.io/sunnyside-agency-landing-page-main/](https://mavolty.github.io/sunnyside-agency-landing-page-main/)
 
 ## My process
 
@@ -42,6 +42,7 @@ So, this is the second time I'm doing a challenge to build a website. I built th
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
+- Animate on scroll library
 - Vanilla Javascript
 
 ## Author
