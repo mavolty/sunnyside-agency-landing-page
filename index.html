@@ -11,6 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,700;0,900;1,700;1,900&display=swap"
     rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="app/style.css">
   <title>Frontend Mentor | Sunnyside agency landing page</title>
 </head>
@@ -37,7 +38,7 @@
     </nav>
 
     <div class="header__head flex flex--jc--c flex--ai--c">
-      <h1 class="header__heading"> We are creatives</h1>
+      <h1 class="header__heading" data-aos="slide-down" data-aos-duration="1500"> We are creatives</h1>
     </div>
 
     <a href="#content" id="arrow-down" class="arrow-down flex flex--jc--c flex--ai--c">
@@ -60,21 +61,21 @@
       <div class="content__split flex--fd--rr">
         <figure><img src="images/mobile/image-transform.jpg" alt="Transform image" class="content__img"></figure>
         <div class="content__text flex flex--jc--c flex--ai--c">
-          <h2 class="content__heading">Transform your brand</h2>
-          <p class="content__paragraph">We are a full-service creative agency specializing in helping brands grow fast.
+          <h2 class="content__heading" data-aos="fade-right" data-aos-duration="1000">Transform your brand</h2>
+          <p class="content__paragraph" data-aos="fade-up" data-aos-duration="1500">We are a full-service creative agency specializing in helping brands grow fast.
             Engage your clients through compelling visuals that do most of the marketing for you.</p>
-          <a href="" class="content__more content__more--yellow">Learn more</a>
+          <a href="" class="content__more content__more--yellow" data-aos="fade-up" data-aos-duration="1800">Learn more</a>
         </div>
       </div>
 
       <div class="content__split">
         <figure><img src="images/mobile/image-stand-out.jpg" alt="Stand out image" class="content__img"></figure>
         <div class="content__text flex flex--jc--c flex--ai--c">
-          <h2 class="content__heading">Stand out to the right audience</h2>
-          <p class="content__paragraph">Using a collaborative formula of designers, researchers, photographers,
+          <h2 class="content__heading" data-aos="fade-left" data-aos-duration="1000">Stand out to the right audience</h2>
+          <p class="content__paragraph" data-aos="fade-up" data-aos-duration="1500">Using a collaborative formula of designers, researchers, photographers,
             videographers, and copywriters, we’ll build
             and extend your brand in digital places.</p>
-          <a href="" class="content__more content__more--red">Learn more</a>
+          <a href="" class="content__more content__more--red" data-aos="fade-up" data-aos-duration="1800">Learn more</a>
         </div>
       </div>
 
@@ -84,8 +85,8 @@
           <img src="images/desktop/image-graphic-design.jpg" alt="Egg image"
             class="content-second__img dekstop-content-second__img">
           <div class="content-second__text content-second__text--cyan">
-            <h3 class="content-second__heading">Graphic design</h3>
-            <p class="content-second__paragraph">Great design makes you memorable. We deliver artwork that underscores
+            <h3 class="content-second__heading" data-aos="fade-down" data-aos-duration="1000">Graphic design</h3>
+            <p class="content-second__paragraph" data-aos="slide-up" data-aos-duration="1500">Great design makes you memorable. We deliver artwork that underscores
               your brand message and captures potential clients’ attention.</p>
           </div>
         </figure>
@@ -96,8 +97,8 @@
           <img src="images/desktop/image-photography.jpg" alt="Cup image"
             class="content-second__img dekstop-content-second__img">
           <div class="content-second__text content-second__text--blue">
-            <h3 class="content-second__heading">Photography</h3>
-            <p class="content-second__paragraph">Increase your credibility by getting the most stunning, high-quality
+            <h3 class="content-second__heading" data-aos="fade-down" data-aos-duration="1000">Photography</h3>
+            <p class="content-second__paragraph" data-aos="slide-up" data-aos-duration="1500">Increase your credibility by getting the most stunning, high-quality
               photos that improve your business image.</p>
           </div>
         </figure>
@@ -184,12 +185,15 @@
 
   </footer>
 
-  <script src="app/script.js"></script>
-
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="https://github.com/mavolty/">Saddam Husain</a>.
   </div>
+  <script src="app/script.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
